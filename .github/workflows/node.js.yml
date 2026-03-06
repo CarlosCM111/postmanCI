@@ -20,7 +20,3 @@ jobs:
       run: npm install -g newman
     - name: ejecutar test
       run: newman run api_projects.postman_collection.json
-    - name: instalar newman
-      run: npm install -g newman
-    - name: ejecutar test
-      run: newman run api_projects.postman_collection.json
